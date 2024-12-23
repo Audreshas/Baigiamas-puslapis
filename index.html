@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lietuvos Miškai</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigacija -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Pagrindinis</a></li>
+                <li><a href="#about">Apie miškus</a></li>
+                <li><a href="#contact">Kontaktai</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero sekcija -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 id="welcome-text">Sveiki atvykę į Lietuvos miškų pasaulį!</h2>
+            <p>Sužinokite apie miškų svarbą, jų ekosistemas ir stebėkite nuostabius Lietuvos miškų vaizdus.</p>
+            <button id="toggle-mode">Perjungti į Naktinį Režimą</button>
+        </div>
+    </section>
+
+    <!-- Apie miškus sekcija -->
+    <section id="about">
+        <div class="content">
+            <h2>Lietuvos miškai – gamtos širdis</h2>
+            <p>Lietuva garsėja savo turtingais ir įvairiais miškais, kurie užima apie <strong>33% šalies teritorijos</strong>. Tai yra vienas didžiausių miškų plotų Europoje. Miškai yra svarbi ekologinė sistema, kuri palaiko biologinę įvairovę, gerina klimato sąlygas ir teikia daugybę išteklių žmonėms.</p>
+
+            <h3>Medžių rūšys Lietuvos miškuose</h3>
+            <p>Lietuvos miškuose auga įvairios medžių rūšys, įskaitant:</p>
+            <ul>
+                <li><strong>Pušys</strong> – dažniausiai pasitaikanti rūšis Lietuvos miškuose.</li>
+                <li><strong>Egles</strong> – būdingos šaltoms ir drėgnoms vietovėms.</li>
+                <li><strong>Beržai</strong> – paprastai augantys drėgnose vietose.</li>
+                <li><strong>Ąžuolai</strong> – vertinami dėl savo ilgaamžiškumo ir tvirtumo.</li>
+                <li><strong>Liepos</strong> – naudojamos tiek medienai, tiek žiedams.</li>
+            </ul>
+
+            <h3>Ekologinė svarba</h3>
+            <p>Miškai atlieka esminį vaidmenį mūsų ekologijoje, nes:</p>
+            <ul>
+                <li>Palaiko <strong>biologinę įvairovę</strong>, suteikdami prieglobstį daugybei augalų ir gyvūnų rūšių.</li>
+                <li>Veikia kaip <strong>anglies dioksido saugyklos</strong>, mažindami klimato kaitą.</li>
+                <li>Teikia naudingus išteklius, tokius kaip mediena, uogos, vaistažolės ir grybai.</li>
+                <li>Padeda išlaikyti <strong>oro grynumą</strong> ir turi teigiamą poveikį žmonių sveikatai.</li>
+            </ul>
+
+            <h3>Miškų apsauga</h3>
+            <p>Miškai yra svarbi gamtos dalis, tačiau jų būklė yra jautri. Atsakingas miškų naudojimas ir apsauga užtikrina, kad miškai galėtų išlikti ateities kartoms. Šiuo metu Lietuva skiria didelį dėmesį miškų apsaugai ir tvariam naudojimui, taip pat visu tuo rūpinasi Lietuvos aplinkos apsauga, remiantis konstitucija -  <a href="https://www.vle.lt/straipsnis/lietuvos-aplinkos-apsauga/" target="_blank">Straipsnis</a>.</p>
+
+            <div class="images">
+                <img src="LT-mišk.png" alt="Lietuvos miškai" class="forest-img">
+                <img src="LT-mišk2.jpg" alt="Lietuvos miškai" class="forest-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontaktų sekcija -->
+    <section id="contact">
+        <div class="content">
+            <h2>Kontaktai</h2>
+            <p>Jei norite sužinoti daugiau apie Lietuvos miškų apsaugą ir tyrimus, susisiekite su mumis:</p>
+            
+            <!-- Kontaktų forma -->
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="first-name">Vardas:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Pavardė:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">El. paštas:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefono numeris:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <button type="submit">Siųsti</button>
+            </form>
+            
+            <p>Su paliktais kontaktais, būtinai susisieksime!</p>
+        </div>
+    </section>
+
+    <!-- Remark apie miškus -->
+    <footer>
+        <div class="content">
+            <p><strong>Daugiau informacijos apie Lietuvos miškus galite rasti VIKI puslapyje:</strong></p>
+            <p><a href="https://lt.wikipedia.org/wiki/Lietuvos_miškai" target="_blank">Lietuvos miškai - Vikipedija</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
